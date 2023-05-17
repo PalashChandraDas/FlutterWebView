@@ -110,7 +110,7 @@ class _MayapurTvWebState extends State<MayapurTvWeb> {
         controller.clearCache();
         CookieManager().clearCookies();
         // Get.to(()=> const LiveTvScreen());
-        Navigator.pop(context);
+        SystemNavigator.pop();
         break;
     }
   }
